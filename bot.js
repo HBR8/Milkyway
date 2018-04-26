@@ -6,13 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!milkyway') {
-    	 "embed": {
-        "image": {
-            "url": "https://media.discordapp.net/attachments/438022387519193098/438049757915643934/image.jpg?width=473&height=473"
-        }
-    }
-  	}
+    if (message.content === '!milkyway') 
+        
+        
 });
 
 client.login(process.env.BOT_TOKEN);
