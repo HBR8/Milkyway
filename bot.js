@@ -7,12 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!milkyway') {
-    
-        
-        
-        
-        
-    }
+    	message.reply('pong');
+  	}
 });
 
 client.login(process.env.BOT_TOKEN);
