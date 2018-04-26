@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '-Milkyway') {
+    if (message.content === 'ping') {
     	message.reply('test');
   	}
 });
