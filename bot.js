@@ -3,10 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-client.on("ready", funciton(){
-	console.log("Milkyway bot is online!");
-});
-
 client.on("message", function(message){
 
 	if(message.author.equals(client.user)) return;
