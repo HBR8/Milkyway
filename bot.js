@@ -3,12 +3,15 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*Milkyway";
 
+client.on("ready", funciton(){
+	console.log("Milkyway bot is online!");
+});
 
 client.on("message", function(message){
 
 	if(message.author.equals(client.user)) return;
 
-	if(!message.content.startswith(PREFIX)) return;
+	if(!message.content.startsWith(PREFIX)) return;
 
 	var args = message.content.substring(PREFIX.length).split(" ");
 
@@ -22,12 +25,7 @@ client.on("message", function(message){
 
 		default: 
 			message.channel.sendMessage("Invalid command");
-
-
-
 	}
-
-}
 });
 
 client.login(process.env.BOT_TOKEN);
