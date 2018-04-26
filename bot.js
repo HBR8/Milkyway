@@ -1,16 +1,11 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const PREFIX = "*";
+const PREFIX = "*Milkyway";
 
-
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-    console.log('I am ready!');
+client.on("ready", funciton(){
+	console.log("Milkyway bot is online!");
 });
-
 
 client.on("message", function(message){
 
@@ -22,12 +17,12 @@ client.on("message", function(message){
 
 	switch(args[0].toLowerCase()){
 
-		case "milkyway":
+		case "embed":
 		var embed = new Discord.RichEmbed()
 		.setDescription("Hello!");
-		message.channel.sendEmbed(embed);
+		message.channel.sendMessage(embed);
 		break;
-			
+
 		default: 
 			message.channel.sendMessage("Invalid command");
 	}
