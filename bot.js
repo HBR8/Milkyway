@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const PREFIX = "*Milkyway";
+const PREFIX = "*";
 
 client.on("message", function(message){
 
@@ -13,7 +13,7 @@ client.on("message", function(message){
 
 	switch(args[0].toLowerCase()){
 
-		case "embed":
+		case "milkyway":
 		var embed = new Discord.RichEmbed()
 		.setDescription("Hello!");
 		message.channel.sendEmbed(embed);
