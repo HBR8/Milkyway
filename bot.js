@@ -17,8 +17,8 @@ client.on("message", function(message){
 		var embed = new Discord.RichEmbed()
 		.setDescription("Hello!");
 		message.channel.sendEmbed(embed);
-
-
+		break;
+			
 		default: 
 			message.channel.sendMessage("Invalid command");
 	}
