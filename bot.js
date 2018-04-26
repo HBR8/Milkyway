@@ -6,8 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!M') {
-    	message.reply('pong');
+    if (message.content === '!milkyway') {
+    	 "embed": {
+        "image": {
+            "discreption": "I have no idea"
+        }
+    }
   	}
 });
 
