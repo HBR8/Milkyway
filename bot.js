@@ -11,6 +11,13 @@ Sentense[3] = 'It is a goblin barrel with just one troop! And that troop is you!
 Sentense[4] = 'Please welcome with who can counter a minion horde with a log.';
 Sentense[5] = 'A new legendary card arrives! Its you! Welcome!';
 
+for (x=0; x<2; x++){
+  y = Math.floor(Math.random()*Sentense.length);
+  var div = document.getElementById('box3');
+
+    div.innerHTML= div.innerHTML + Sentense[y];
+    Sentense.splice(y, 1);
+}
 
 client.on("message", function(message){
   if(message.author.equals(client.user)) return;
@@ -25,14 +32,6 @@ client.on("message", function(message){
 
     case "milkyway": 
     
-    for (x=0; x<2; x++){
-  y = Math.floor(Math.random()*Sentense.length);
-  var div = document.getElementById('box3');
-
-    div.innerHTML= div.innerHTML + Sentense[y];
-    Sentense.splice(y, 1);
-}
-
     message.channel.send({embed: {
     color: 0xFFD700,
     author: {
