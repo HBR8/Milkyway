@@ -56,6 +56,8 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       }
     ],
+
+
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
