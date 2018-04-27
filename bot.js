@@ -3,10 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 Api api = new Api("https://api.royaleapi.com/", "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4");
-Clan clan = api.getClan(ClanRequestBuilder.builder("9VQ8V8YC")
-        .keys(Arrays.asList("name", "clan", "tag"))
-        .excludes(Arrays.asList("battles"))
-         .build());
 
 
 client.on("message", function(message){
