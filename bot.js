@@ -56,15 +56,12 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       }
     ],
-
-  setImage:{
-    url:"https://royaleapi.com/static/img/badge/Twin_Peaks_02.png"
-},
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
       text: "Bot By HBR"
-    },
+    }
+    .setThumbnail("https://royaleapi.com/static/img/badge/Twin_Peaks_02.png")
   }
 });
 
