@@ -22,20 +22,7 @@ client.on("message", function(message){
     title: "Milkyway Family",
     url: "http://google.com",
     description: "this is our clans, choose the best one for you and join it now!",
-    fields: [{
-        name: "EARTH",
-        value: "TAG"
-      },
-      {
-        name: "MARS",
-        value: "TAG"
-      },
-      {
-        name: "SATURN",
-        value: "TAG"
-      }
-    ],
-              timestamp: new Date(),
+    
     footer: {
       icon_url: client.author.avatarURL,
       text: "Bot By HBR"
