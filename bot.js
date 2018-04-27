@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 const PREFIX = "*";
-Api api = new Api("https://api.royaleapi.com/clan/9VQ8V8YC", "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4");
+Api api = new Api("https://api.royaleapi.com/", "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4", AuthMode.BEARER);
 
 client.on("message", function(message){
 
@@ -14,9 +14,10 @@ client.on("message", function(message){
 
     case "data":
 
-        
-      message.channel.send(api.name);
-
+        Clan clan = api.getClan(ClanRequestBuilder.builder("9VQ8V8YC")
+        .keys(Arrays.asList("name", "clan", "tag"))
+        .excludes(Arrays.asList("battles"))
+         .build());
 
     break;
 
