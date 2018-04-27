@@ -2,7 +2,23 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 const PREFIX = "*";
-Api api = new Api("https://api.royaleapi.com/", "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4");
+String token = "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4";
+private String _tagCharacters;
+private String _baseURL;
+
+
+ class Client {
+ 
+   constructor(token) {
+
+         if (!token) throw new Error('Token is required to interact with the API. Make sure to provide it.');
+        this.token = token;
+
+        this._tagCharacters = '0289PYLQGRJCUV';
+
+        this._baseURL = 'http://api.royaleapi.com/';   
+    
+    }
 
 
 client.on("message", function(message){
@@ -14,7 +30,7 @@ client.on("message", function(message){
 
     case "data":
 
-        message.channel.send(clan.tag);
+      message.channel.send('nothing');
 
     break;
 
