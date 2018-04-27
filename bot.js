@@ -35,10 +35,10 @@ client.on("message", function(message){
         value: "TAG"
       }
     ],
-    footer: {
+       footer: {
       icon_url: client.author.avatarURL,
       text: "Bot By HBR"
-    }
+    
   }
 });
 
