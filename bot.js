@@ -34,7 +34,9 @@ message.channel.send({embed: {
         url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
         inline: true
       }
-    ],    break;
+    ],    
+}
+    break;
 
     case "milkyway": 
 
