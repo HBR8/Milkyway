@@ -33,7 +33,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: ""+Sentense[i++],
+    description: ""+Sentense[i],
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
@@ -54,7 +54,7 @@ client.on("message", function(message){
     }
   }
 });
-
+    i= i+1;
     if(i=Sentense.length){
       i=0;
     }
