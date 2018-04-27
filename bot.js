@@ -39,7 +39,7 @@ client.on("message", function(message){
     ],
     timestamp: new Date(),
     footer: {
-      icon_url: client.user.avatarURL,
+      icon_url: client.users.@HBR.avatarURL,
       text: "By HBR"
     }
   }
