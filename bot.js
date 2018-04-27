@@ -64,9 +64,8 @@ client.on("message", function(message){
       text: "Bot By HBR"
     },
     setImage: {
-      url: "https://discord.js.org/#/docs/main/indev/class/RichEmbed"
+      url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png"
     }
-
   }
 });
 
