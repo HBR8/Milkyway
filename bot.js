@@ -15,12 +15,11 @@ client.on("message", function(message){
 
     case "data":
 
-  var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", auth);
-
-   function gotData(data) {
+    var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC");
+   
     
       message.channel.send(data);
-    }
+
 
     break;
 
