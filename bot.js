@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
+const auth = "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4";
 const PREFIX = "*";
-
 
 
 client.on("message", function(message){
@@ -15,11 +15,11 @@ client.on("message", function(message){
 
     case "data":
 
-  var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", gotData, 'jsonp');
+  var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", auth);
 
-  function gotData(data) {
+   function gotData(data) {
     
-      message.channel.send(data.name);
+      message.channel.send(data);
     }
 
     break;
