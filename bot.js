@@ -23,7 +23,7 @@ client.on("message", function(message){
     color: 0xFFD700,
     author: {
       name: client.user.username,
-      icon_url: client.user.avatarURL
+      icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
     title: "Milkyway",
