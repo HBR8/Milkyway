@@ -4,9 +4,6 @@ const client = new Discord.Client();
 const PREFIX = "*";
 
 client.on("message", function(message){
-
-	if(message.author.equals(client.user)) return;
-
 	if(!message.content.startsWith(PREFIX)) return;
 
 	var args = message.content.substring(PREFIX.length).split(".");
@@ -39,7 +36,7 @@ client.on("message", function(message){
     ],
     timestamp: new Date(),
     footer: {
-      icon_url: client.users.9346%@HBR.avatarURL,
+      icon_url: client.author.avatarURL,
       text: "By HBR"
     }
   }
