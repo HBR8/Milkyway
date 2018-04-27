@@ -13,29 +13,7 @@ client.on("message", function(message){
     case "earth":
     case "ea":
 
-message.channel.send({embed: {
-    color: 0xFFD700,
-    author: {
-      name: EARTH,
-      icon_url: client.user.avatarURL,
-      url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
-    },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
-    fields: [
-      {
-        name: "----> E A R T H **(#9VQ8V8YC)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC",
-        inline: true
-      },
-      {
-        name: "----> S A T U R N **(#P2P9VR02)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
-        inline: true
-      }
-    ],    
-}
+    message.channel.send('!clan ');
     break;
 
     case "milkyway": 
