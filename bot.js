@@ -3,7 +3,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-
+var Sentense = new Array();
+Sentense[0] = 'We have unlocked a new card! Welcome to the Arena.';
+Sentense[1] = ' just saw come out of the goblin hut. Please find them some pants.';
+Sentense[2] = 'Hey, We would use mirror spell to have a second you, even if it costs one more elixir! Welcome to our alliance!';
+Sentense[3] = 'It is a goblin barrel with just one troop! And that troop is you! Welcome!';
+Sentense[4] = 'Please welcome with who can counter a minion horde with a log.';
+Sentense[5] = 'A new legendary card arrives! Its you! Welcome!';
 
 
 client.on("message", function(message){
@@ -19,6 +25,13 @@ client.on("message", function(message){
 
     case "milkyway": 
     
+    for (x=0; x<2; x++){
+  y = Math.floor(Math.random()*Sentense.length);
+  var div = document.getElementById('box3');
+
+    div.innerHTML= div.innerHTML + Sentense[y];
+}
+
     message.channel.send({embed: {
     color: 0xFFD700,
     author: {
@@ -26,9 +39,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    title: "Milkyway",
-    url: "https://royaleapi.com/clan/family/milkyway/clans",
-    description: "This is a test embed to showcase what they look like and what they can do.",
+    description: Sentense.splice(y, 1),
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
