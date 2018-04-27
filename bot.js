@@ -62,7 +62,7 @@ client.on("message", function(message){
     footer: {
       icon_url: client.user.avatarURL,
       text: "Bot By HBR"
-    },
+    }
 
   .setImage("https://royaleapi.com/static/img/badge/Twin_Peaks_02.png")
 
