@@ -10,15 +10,15 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		case "milkyway":
-
-		var embed = new Discord.RichEmbed(data);
+		var embed = new Discord.RichEmbed();
 		
 		.addField("test title","Test desc")
 
 		message.channel.sendEmbed(embed);
 		break;
-		default: 
-			message.channel.sendMessage("Invalid command");
+			
+	default: 
+		message.channel.sendMessage("Invalid command");
 	}
 });
 
