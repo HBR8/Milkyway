@@ -14,9 +14,9 @@ client.on("message", function(message){
 
 	switch(args[0].toLowerCase()){
 
-		default
-
-		var embed = new Discord.RichEmbed(data);
+		default:
+			
+		var embed = new Discord.RichEmbed()
 		
 		.addField("test title","Test desc")
 
