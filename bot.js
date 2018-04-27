@@ -15,7 +15,7 @@ client.on("message", function(message){
 
 		case "milkyway": 
 		
-		var clans = new RichEmbed()
+		var clans = new Discord.RichEmbed()
 
 		.addField("E A R T H","TAG")
 
