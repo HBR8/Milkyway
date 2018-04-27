@@ -16,7 +16,7 @@ client.on("message", function(message){
 		case "milkyway": 
 		
 		message.channel.send({embed: {
-    color: 3447003,
+    color: ff0000,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
@@ -45,7 +45,7 @@ client.on("message", function(message){
   }
 });
 
-		
+
 		break;
 
 		default:
