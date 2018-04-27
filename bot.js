@@ -24,9 +24,10 @@ client.on("message", function(message){
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
+      url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    title: "This is an embed",
-    url: "http://google.com",
+    title: "Milkyway",
+    url: "https://royaleapi.com/clan/family/milkyway/clans",
     description: "This is a test embed to showcase what they look like and what they can do.",
     fields: [{
         name: "Fields",
