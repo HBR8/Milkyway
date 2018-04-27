@@ -3,14 +3,28 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-var request = new XMLHttpRequest();
 
-request.open('GET', 'https://api.royaleapi.com/clan/9VQ8V8YC');
 
-request.setRequestHeader('TRN-Api-Key', '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4');
+function loadJSON(success, error)
+{
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function()
+    {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                if (success)
+                    success(JSON.parse(xhr.responseText));
+            } else {
+                if (error)
+                    error(xhr);
+            }
+        }
+    };
+    xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", true);
+    xhr.send();
+}
 
-};
-request.send();
+
 
 client.on("message", function(message){
   if(message.author.equals(client.user)) return;
