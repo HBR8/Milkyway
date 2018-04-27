@@ -16,7 +16,7 @@ client.on("message", function(message){
 		case "milkyway": 
 		
 		message.channel.send({embed: {
-    color: 'red',
+    color: 00000,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
