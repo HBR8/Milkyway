@@ -3,17 +3,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-function getdata(){
-  var clans = new XMLHttpRequest();
-  xhttp.onreadystatechange = function();
-  if(xhttp.readystate==4 && xhttp.status=200){
-    var jabaobj = JSON.parse(xhttp.response);
+function load(){
+  data = loadJSON('https://api.royaleapi.com/clan/9VQ8V8YC');
 }
-
-};
-  xhttp.open("GET","data.json",true);
-  xhttp.send();
-
 
 client.on("message", function(message){
 
@@ -22,6 +14,12 @@ client.on("message", function(message){
   var args = message.content.substring(PREFIX.length).split(" ");
 
   switch(args[0].toLowerCase()){
+
+    case "data":
+
+    message.channel.send("```"+data+"```");
+
+    break;
 
     case "milkyway": 
     
