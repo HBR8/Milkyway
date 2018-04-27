@@ -42,8 +42,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       text: "© Example"
     }
-  }
-});
+}
 
 		default:
 			message.channel.sendMessage("invalid command");	
