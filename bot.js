@@ -69,11 +69,11 @@ case "earth":
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: E A R T H,
+      name: client.user.username,
       icon_url: client.user.avatarURL,
-      url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
+      url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "* our alliance is made up of 6 clans with nearly 300 members. ",
     fields: [
       {
         name: "----> E A R T H **(#9VQ8V8YC)**",
