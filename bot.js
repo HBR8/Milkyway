@@ -3,6 +3,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
+try{
+
 client.on("message", function(message){
 
 	if(message.author.equals(client.user)) return;
@@ -53,5 +55,12 @@ client.on("message", function(message){
 
 	}
 });		
+
+}
+
+catch(err){
+
+}
+
 
 client.login(process.env.BOT_TOKEN);
