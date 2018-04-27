@@ -30,6 +30,7 @@ client.on("message", function(message){
   var div = document.getElementById('box3');
 
     div.innerHTML= div.innerHTML + Sentense[y];
+    Sentense.splice(y, 1);
 }
 
     message.channel.send({embed: {
@@ -39,7 +40,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "",
+    description: " nothing ",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
