@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const PREFIX = "*milkyway";
+const PREFIX = "*";
 
 
 client.on("message", function(message){
@@ -14,12 +14,15 @@ client.on("message", function(message){
 
 	switch(args[0].toLowerCase()){
 
-		default:
-
+		case "milkyway": 
 		message.channel.send({embed: {
-  color: 3447003,
-  description: "A very simple Embed!"
-}
-});
+ 		 color: 3447003,
+  		description: "A very simple Embed!"	
+
+		default:
+			message.channel.sendMessage("invalid command");	
+
+	}
+});		
 
 client.login(process.env.BOT_TOKEN);
