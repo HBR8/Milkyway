@@ -3,6 +3,17 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
+function getdata(){
+  var clans = new XMLHttpRequest();
+  xhttp.onreadystatechange = function();
+  if(xhttp.readystate==4 && xhttp.status=200){
+    var jabaobj = JSON.parse(xhttp.response);
+}
+
+};
+  xhttp.open("GET","data.json",true);
+  xhttp.send();
+
 
 client.on("message", function(message){
 
