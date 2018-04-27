@@ -19,7 +19,7 @@ client.on("message", function(message){
 		.addField("E A R T H","TagHere")
 		.addField("M A R S","TagHere")
 
-		message.channel.sendMessage(clans);	
+		message.channel.sendEmbed(clans);
 
 		break;
 
