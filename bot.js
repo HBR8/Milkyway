@@ -10,14 +10,8 @@ Sentense[2] = 'Hey, We would use mirror spell to have a second you, even if it c
 Sentense[3] = 'It is a goblin barrel with just one troop! And that troop is you! Welcome!';
 Sentense[4] = 'Please welcome with who can counter a minion horde with a log.';
 Sentense[5] = 'A new legendary card arrives! Its you! Welcome!';
+var i = 0;
 
-for (x=0; x<2; x++){
-  y = Math.floor(Math.random()*Sentense.length);
-  var div = document.getElementById('box3');
-
-    div.innerHTML= div.innerHTML + Sentense[y];
-    Sentense.splice(y, 1);
-}
 
 client.on("message", function(message){
   if(message.author.equals(client.user)) return;
@@ -39,7 +33,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: " nothing ",
+    description: ""+Sentense[i],
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
@@ -61,6 +55,9 @@ client.on("message", function(message){
   }
 });
 
+    if(i=Sentense.length){
+      i=0;
+    }
     break;
 
     default:
