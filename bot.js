@@ -60,7 +60,7 @@ client.on("message", function(message){
 
     timestamp:null ,
     footer: {
-      icon_url: client.user.avatarURL,
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
       text: "Bot By HBR"
     },
   }
