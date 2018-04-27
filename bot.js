@@ -46,7 +46,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "Our alliance is made up of 6 clans, you can join us!"+xhr.badge.id,
+    description: "Our alliance is made up of 6 clans, you can join us!"+xhr.open(name),
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
