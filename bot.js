@@ -1,16 +1,17 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const PREFIX = "*Milkyway";
+const PREFIX = "*";
 
 
 client.on("message", function(message){
-  
 	var args = message.content.substring(PREFIX.length).split(" ");
+
 	switch(args[0].toLowerCase()){
 
-		case "embed":
-		var embed = new Discord.RichEmbed()
+		case "milkyway":
+
+		var embed = new Discord.RichEmbed(data);
 		
 		.addField("test title","Test desc")
 
