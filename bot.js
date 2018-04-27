@@ -20,7 +20,7 @@ function loadJSON(success, error)
             }
         }
     };
-    xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC","271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4", true);
+    xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC","271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4",data, true);
     xhr.send();
 }
 
@@ -39,6 +39,15 @@ client.on("message", function(message){
 
     case "milkyway": 
     
+    function clans(data) {
+      
+        var w = data;
+
+        message.channel.send(w.name);
+
+    }
+
+
     message.channel.send({embed: {
     color: 0xFFD700,
     author: {
@@ -46,7 +55,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "Our alliance is made up of 6 clans, you can join us!"+xhr.open(name),
+    description: "Our alliance is made up of 6 clans, you can join us!",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
