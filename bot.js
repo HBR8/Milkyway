@@ -15,8 +15,11 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		case "milkyway": 
-		
-		message.channel.sendMessage("it should be embeded here!");	
+		var clans = new Discord.RichEmbed()
+		.addField("E A R T H","TagHere")
+		.addField("M A R S","TagHere")
+
+		message.channel.sendMessage(clans);	
 
 		break;
 
