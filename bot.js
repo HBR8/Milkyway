@@ -7,7 +7,7 @@ var request = new XMLHttpRequest();
 
 request.open('GET', 'https://api.royaleapi.com/clan/9VQ8V8YC');
 
-request.setRequestHeader('Auth', '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4');
+request.setRequestHeader('TRN-Api-Key', '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4');
 
 request.onreadystatechange = function () {
   if (this.readyState === 4) {
