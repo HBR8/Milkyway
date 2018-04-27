@@ -10,7 +10,7 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		case "milkyway":
-		var embed = new Discord.RichEmbed();
+		var embed = new Discord.RichEmbed()
 		
 		.addField("test title","Test desc")
 
