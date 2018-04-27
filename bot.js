@@ -69,16 +69,15 @@ case "earth":
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL,
-      url: "https://royaleapi.com/clan/family/milkyway/clans"
+      name: "**E A R T H** (9VQ8V8YC)",
+      icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
+      url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
     },
-    description: "* our alliance is made up of 6 clans with nearly 300 members. ",
+    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
     fields: [
       {
-        name: "----> E A R T H **(#9VQ8V8YC)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
+        name: "**Clan Score** :trophy:",
+        value: ":trophy: 40K+"
       },
       {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
