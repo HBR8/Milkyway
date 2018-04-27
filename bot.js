@@ -3,15 +3,21 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-var Sentense = new Array();
-Sentense[0] = 'We have unlocked a new card! Welcome to the Arena.';
-Sentense[1] = ' just saw come out of the goblin hut. Please find them some pants.';
-Sentense[2] = 'Hey, We would use mirror spell to have a second you, even if it costs one more elixir! Welcome to our alliance!';
-Sentense[3] = 'It is a goblin barrel with just one troop! And that troop is you! Welcome!';
-Sentense[4] = 'Please welcome with who can counter a minion horde with a log.';
-Sentense[5] = 'A new legendary card arrives! Its you! Welcome!';
-var i = 0;
+var request = new XMLHttpRequest();
 
+request.open('GET', 'https://api.royaleapi.com/clan/9VQ8V8YC');
+
+request.setRequestHeader('Auth', '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4');
+
+request.onreadystatechange = function () {
+  if (this.readyState === 4) {
+    console.log('Status:', this.status);
+    console.log('Headers:', this.getAllResponseHeaders());
+    console.log('Body:', this.responseText);
+  }
+};
+
+request.send();
 
 client.on("message", function(message){
   if(message.author.equals(client.user)) return;
@@ -33,7 +39,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: ""+Sentense[i],
+    description: "Our alliance is made up of 6 clans, you can join us!",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
@@ -54,10 +60,7 @@ client.on("message", function(message){
     }
   }
 });
-    i= i+1;
-    if(i=Sentense.length){
-      i=0;
-    }
+
     break;
 
     default:
