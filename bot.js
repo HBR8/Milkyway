@@ -21,6 +21,7 @@ function loadJSON(success, error)
         }
     };
     xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", true);
+    xhr.require("auth","271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4");
     xhr.send();
 }
 
