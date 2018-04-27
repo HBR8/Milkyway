@@ -17,7 +17,7 @@ client.on("message", function(message){
 
     case "data":
 
-    message.channel.send(data);
+    message.channel.send(data.name);
 
     break;
 
