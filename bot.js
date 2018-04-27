@@ -3,10 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-var readclan = new XMLHtppRequest();
-clan.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", false);
-clan.send(null);
-
 
 client.on("message", function(message){
 
