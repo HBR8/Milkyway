@@ -26,7 +26,6 @@ client.on("message", function(message){
     description: "This is our clans, choose the best one for you and join!",
     fields: [{
         name: "EARTH",
-        icon_url: "http://www.download82.com/images/produse/iconuri/earth-explorer.gif"
         value: "They can have different fields with small headlines."
       },
       {
