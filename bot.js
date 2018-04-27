@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", gotData);
+var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", gotData, 'jsonp');
 
 
 client.on("message", function(message){
