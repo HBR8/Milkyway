@@ -62,9 +62,12 @@ client.on("message", function(message){
     footer: {
       icon_url: client.user.avatarURL,
       text: "Bot By HBR"
+    },
+    setImage: {
+      url: "https://discord.js.org/#/docs/main/indev/class/RichEmbed"
     }
+
   }
-  .setImage("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
 });
 
     break;
