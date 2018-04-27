@@ -16,7 +16,7 @@ client.on("message", function(message){
 		case "milkyway": 
 		
 		message.channel.send({embed: {
-    color: FF0000,
+    color: 3447003,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
@@ -42,7 +42,11 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       text: "© Example"
     }
-}
+  }
+});
+
+		
+		break;
 
 		default:
 			message.channel.sendMessage("invalid command");	
