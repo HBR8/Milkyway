@@ -69,7 +69,7 @@ case "earth":
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: E A R T H (#9VQ8V8YC),
+      name: E A R T H,
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
     },
