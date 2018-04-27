@@ -35,10 +35,11 @@ client.on("message", function(message){
         value: "TAG"
       }
     ],
-       footer: {
+       message.channel.sendMessage("");
+    footer: {
       icon_url: client.author.avatarURL,
       text: "Bot By HBR"
-    
+    }
   }
 });
 
