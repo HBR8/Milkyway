@@ -15,10 +15,10 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		case "milkyway": 
-		message.channel.send({embed: {
- 		 color: 3447003,
-  		description: "A very simple Embed!"
-  	}
+		
+		message.channel.sendMessage("it should be embeded here!");	
+
+		break;
 
 		default:
 			message.channel.sendMessage("invalid command");	
