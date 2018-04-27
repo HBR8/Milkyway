@@ -9,13 +9,6 @@ client.on("message", function(message){
   var args = message.content.substring(PREFIX.length).split(" ");
 
   switch(args[0].toLowerCase()){
-
-    case "earth":
-    case "ea":
-
-    message.channel.send('!clan ');
-    break;
-
     case "milkyway": 
 
     message.channel.send({embed: {
@@ -67,8 +60,49 @@ client.on("message", function(message){
     },
   }
 });
+    break;
+
+
+case "earth":
+    case "ea":
+
+     message.channel.send({embed: {
+    color: 0xFFD700,
+    author: {
+      name: E A R T H (#9VQ8V8YC),
+      icon_url: client.user.avatarURL,
+      url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
+    },
+    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    fields: [
+      {
+        name: "----> E A R T H **(#9VQ8V8YC)**",
+        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
+        url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
+      },
+      {
+        name: "----> N E P T U N E **(#P0JJ9RVJ)**",
+        value: ":trophy: 32K+     :crossed_swords:Clan Wars[**Active**]",
+        url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
+      }
+    ],
+
+
+    timestamp:null ,
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
+      text: "Bot By HBR"
+    },
+  }
+});
+
+
+
 
     break;
+
+
+
 
     default:
       message.channel.sendMessage("invalid command"); 
