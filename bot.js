@@ -81,13 +81,18 @@ case "earth":
         inline: true
       },
       {
+        name: "**Required trophies**",
+        value: ":trophy: 3800",
+        inline: true
+      },
+      {
         name: "**Donations Per Week**",
         value: "13K+",
         inline: true
       },
       {
-        name: "**Required trophies**",
-        value: ":trophy: 3800",
+        name: "**Clan Wars**",
+        value: ":fire:[Active]",
         inline: true
       },
       {
