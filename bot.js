@@ -14,14 +14,14 @@ client.on("message", function(message){
 		case "milkyway": 
 		
 		message.channel.send({embed: {
-    color: 0xf2d838,
+    color: 0xFFD700,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
     title: "Milkyway Family",
     url: "http://google.com",
-    description: "this is our clans, choose the best one for you and join now!",
+    description: "this is our clans, choose the best one for you and join it now!",
     fields: [{
         name: "EARTH",
         value: "TAG"
@@ -35,10 +35,9 @@ client.on("message", function(message){
         value: "TAG"
       }
     ],
-    timestamp: new Date(),
     footer: {
-      icon_url: message.author.avatarURL,
-      text: "By HBR"
+      icon_url: client.author.avatarURL,
+      text: "Bot By HBR"
     }
   }
 });
