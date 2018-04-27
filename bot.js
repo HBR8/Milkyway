@@ -39,7 +39,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: Sentense.splice(y, 1),
+    description: "",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
