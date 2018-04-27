@@ -3,20 +3,26 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
+var readclan = new XMLHtppRequest();
+clan.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", false);
+clan.send(null);
+var clan = JSON.perse(readclan.response);
+
+
 client.on("message", function(message){
 
-	if(message.author.equals(client.user)) return;
-	if(!message.content.startsWith(PREFIX)) return;
-	var args = message.content.substring(PREFIX.length).split(" ");
+  if(message.author.equals(client.user)) return;
+  if(!message.content.startsWith(PREFIX)) return;
+  var args = message.content.substring(PREFIX.length).split(" ");
 
-	switch(args[0].toLowerCase()){
+  switch(args[0].toLowerCase()){
 
-		case "milkyway": 
-		
-		message.channel.send({embed: {
+    case "milkyway": 
+    
+    message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: client.user.username,
+      name: var printc = "Name" + clan."name";,
       icon_url: client.user.avatarURL
     },
     title: "This is an embed",
@@ -43,12 +49,12 @@ client.on("message", function(message){
   }
 });
 
-		break;
+    break;
 
-		default:
-			message.channel.sendMessage("invalid command");	
+    default:
+      message.channel.sendMessage("invalid command"); 
 
-	}
-});		
+  }
+});   
 
 client.login(process.env.BOT_TOKEN);
