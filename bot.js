@@ -27,32 +27,32 @@ client.on("message", function(message){
     fields: [
       {
         name: ":----> E A R T H **(#9VQ8V8YC)**",
-        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
+        value: ":medal: 40K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
       },
       {
-        name: ":----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: "  :medal: 32K+     :crossed_swords::fire:Clan Wars[Active]",
+        name: "----> N E P T U N E **(#P0JJ9RVJ)**",
+        value: ":medal: 32K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
-        name: ":----> S A T U R N **(#P2P9VR02)**",
-        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
+        name: "----> S A T U R N **(#P2P9VR02)**",
+        value: ":medal: 40K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
       },
       {
-        name: ":----> M A R S **(#9RURCVRR)**",
-        value: "  :medal: 35K+     :crossed_swords::fire:Clan Wars[Active]",
+        name: "----> M A R S **(#9RURCVRR)**",
+        value: ":medal: 35K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       },
       {
-        name: ":----> P L A N E T - X **(#99RP2Y2V)**",
-        value: "  :medal: 37K+     :crossed_swords::fire:Clan Wars[Active]",
+        name: "----> P L A N E T - X **(#99RP2Y2V)**",
+        value: ":medal: 37K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
       },
       {
-        name: ":----> J U P I T E R **(#P829Q822)**",
-        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
+        name: "----> J U P I T E R **(#P829Q822)**",
+        value: ":medal: 40K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       }
     ],
