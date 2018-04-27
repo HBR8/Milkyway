@@ -21,7 +21,7 @@ client.on("message", function(message){
     },
     title: "Milkyway Family",
     url: "http://google.com",
-    description: "this is our clans, choose the best one for you and join it now!",
+    description: "this is our clans, choose the best one for you and join now!",
     fields: [{
         name: "EARTH",
         value: "TAG"
