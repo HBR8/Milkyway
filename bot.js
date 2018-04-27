@@ -35,7 +35,7 @@ client.on("message", function(message){
         value: "TAG"
       }
     ],
-       timestamp: new Date(),
+              timestamp: new Date(),
     footer: {
       icon_url: client.author.avatarURL,
       text: "Bot By HBR"
