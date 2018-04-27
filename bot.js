@@ -3,7 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-
 client.on("message", function(message){
 
 	if(message.author.equals(client.user)) return;
@@ -15,12 +14,11 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		case "milkyway": 
-		var clans = new Discord.RichEmbed()
-		.addField("E A R T H","TagHere")
-		.addField("M A R S","TagHere")
-
-		message.channel.sendEmbed(clans);
-
+		var clans = new Discord.RichEmbed(
+			.addField("E A R T H","TagHere")
+			
+			);
+		
 		break;
 
 		default:
