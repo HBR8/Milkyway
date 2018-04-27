@@ -26,33 +26,33 @@ client.on("message", function(message){
     description: "* our alliance is made up of 6 clans with nearly 300 members. ",
     fields: [
       {
-        name: ":comet:  E A R T H **(#9VQ8V8YC)**",
-        value: "  :medal: 40K+     :crossed_swords:Clan Wars",
+        name: ":----> E A R T H **(#9VQ8V8YC)**",
+        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
       },
       {
-        name: ":comet:  N E P T U N E **(#P0JJ9RVJ)**",
-        value: "  :medal: 32K+     :crossed_swords:Clan Wars",
+        name: ":----> N E P T U N E **(#P0JJ9RVJ)**",
+        value: "  :medal: 32K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
-        name: ":comet:  S A T U R N **(#P2P9VR02)**",
-        value: "  :medal: 40K+     :crossed_swords:Clan Wars",
+        name: ":----> S A T U R N **(#P2P9VR02)**",
+        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
       },
       {
-        name: ":comet:  M A R S **(#9RURCVRR)**",
-        value: "  :medal: 35K+     :crossed_swords:Clan Wars",
+        name: ":----> M A R S **(#9RURCVRR)**",
+        value: "  :medal: 35K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       },
       {
-        name: ":comet:  P L A N E T - X **(#99RP2Y2V)**",
-        value: "  :medal: 37K+     :crossed_swords:Clan Wars",
+        name: ":----> P L A N E T - X **(#99RP2Y2V)**",
+        value: "  :medal: 37K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
       },
       {
-        name: ":comet:  J U P I T E R **(#P829Q822)**",
-        value: "  :medal: 40K+     :crossed_swords:Clan Wars",
+        name: ":----> J U P I T E R **(#P829Q822)**",
+        value: "  :medal: 40K+     :crossed_swords::fire:Clan Wars[Active]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       }
     ],
