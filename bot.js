@@ -3,7 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "*";
 
-var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", 'jsonp');
 
 
 client.on("message", function(message){
@@ -16,7 +15,12 @@ client.on("message", function(message){
 
     case "data":
 
-    message.channel.send(data);
+  var data = loadJSON("https://api.royaleapi.com/clan/9VQ8V8YC", gotData, 'jsonp');
+
+  function gotData(data) {
+    
+      message.channel.send(data.name);
+    }
 
     break;
 
