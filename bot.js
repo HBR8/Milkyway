@@ -56,7 +56,7 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       }
     ],
-    timestamp: new Date(),
+    message.channel.send(""),
     footer: {
       icon_url: client.user.avatarURL,
       text: "Bot By HBR"
