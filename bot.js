@@ -4,21 +4,6 @@ const client = new Discord.Client();
 const PREFIX = "*";
 
 
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://api.royaleapi.com/clan/2CCCP",
-  "method": "GET",
-  "headers": {
-    "auth": "271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4"
-  }
-}
-
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-
-
 
 
 client.on("message", function(message){
