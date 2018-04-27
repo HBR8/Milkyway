@@ -9,14 +9,7 @@ request.open('GET', 'https://api.royaleapi.com/clan/9VQ8V8YC');
 
 request.setRequestHeader('TRN-Api-Key', '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4');
 
-request.onreadystatechange = function () {
-  if (this.readyState === 4) {
-    console.log('Status:', this.status);
-    console.log('Headers:', this.getAllResponseHeaders());
-    console.log('Body:', this.responseText);
-  }
 };
-
 request.send();
 
 client.on("message", function(message){
