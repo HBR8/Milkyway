@@ -15,14 +15,11 @@ client.on("message", function(message){
 	switch(args[0].toLowerCase()){
 
 		default:
-			
-		var embed = new Discord.RichEmbed()
-		
-		.addField("test title","Test desc")
 
-		message.channel.sendEmbed(embed);
-		
-	}
+		message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}
 });
 
 client.login(process.env.BOT_TOKEN);
