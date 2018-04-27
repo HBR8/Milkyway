@@ -26,7 +26,7 @@ client.on("message", function(message){
     description: "* our alliance is made up of 6 clans with nearly 300 members. ",
     fields: [
       {
-        name: ":----> E A R T H **(#9VQ8V8YC)**",
+        name: "----> E A R T H **(#9VQ8V8YC)**",
         value: ":medal: 40K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
       },
@@ -58,7 +58,7 @@ client.on("message", function(message){
     ],
 
 
-    timestamp: new Date(),
+    timestamp:null ,
     footer: {
       icon_url: client.user.avatarURL,
       text: "Bot By HBR"
