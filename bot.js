@@ -14,18 +14,6 @@ client.on("message", function(message){
   switch(args[0].toLowerCase()){
 
     case "data":
-        var request = require("request");
-
-    var options = { method: 'GET',
-    url: 'https://api.royaleapi.com/clan/2CCCP',
-    headers: { auth: '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4' }
-};
-
-    request(options, function (error, response, body) {
-    if (error) throw new Error(error);
-
-    console.log(body);
-  });
 
     break;
 
