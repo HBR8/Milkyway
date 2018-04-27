@@ -20,10 +20,7 @@ function loadJSON(success, error)
             }
         }
     };
-    xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", true);
-    xhr.headers: {
-            'Authorization': '271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4'
-      },
+    xhr.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC","271845143019437687bd362749414e0db5d24accb17442f1aafe0aeb34d446a4", true);
     xhr.send();
 }
 
