@@ -6,7 +6,6 @@ const PREFIX = "*";
 var readclan = new XMLHtppRequest();
 clan.open("GET", "https://api.royaleapi.com/clan/9VQ8V8YC", false);
 clan.send(null);
-var clan = JSON.perse(readclan.response);
 
 
 client.on("message", function(message){
@@ -22,7 +21,7 @@ client.on("message", function(message){
     message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: var printc = "Name" + clan."name";,
+      name: client.user.username,
       icon_url: client.user.avatarURL
     },
     title: "This is an embed",
