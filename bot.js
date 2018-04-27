@@ -69,20 +69,31 @@ case "earth":
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: "**E A R T H** (9VQ8V8YC)",
+      name: "E A R T H (9VQ8V8YC)",
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
     },
     description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
     fields: [
       {
-        name: "**Clan Score** :trophy:",
-        value: ":trophy: 40K+"
+        name: "**Clan Score**",
+        value: ":trophy: 40K+",
+        inline: true
       },
       {
-        name: "----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: ":trophy: 32K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
+        name: "**Donations Per Week**",
+        value: "13K+",
+        inline: true
+      },
+      {
+        name: "**Required trophies**",
+        value: ":trophy: 3800",
+        inline: true
+      },
+      {
+        name: "**Region**",
+        value: "International",
+        inline: true
       }
     ],
 
