@@ -384,7 +384,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "Milkyway Bot Commands",
+    description: "Milkyway Bot Commands:",
     fields: [
       {
         name: "***Milyway Or *m**",
@@ -392,7 +392,7 @@ client.on("message", function(message){
       },
       {
         name: "***name_of_the_clan Or *shortcut(Two Letters)**",
-        value: "Shows you the specific clan details.",
+        value: "Shows you a specific clan details.",
       }
     ],
 
@@ -420,7 +420,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "invalid command",
+    description: "invalid command!",
     fields: [
       {
         name: "How to use the bot?",
