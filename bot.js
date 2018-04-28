@@ -373,51 +373,11 @@ client.on("message", function(message){
 
     break;
 
-      
-      case "help":
-      case "commands":
-      case: "info":
-
-     message.channel.send({embed: {
-    color: 0xFFD700,
-    author: {
-      name: "commands",
-      icon_url: "https://cdn1.iconfinder.com/data/icons/network-security-computer/32/command-line-256.png",
-    },
-    description: "this bot can help you to share the details of the clan. ",
-    fields: [
-      {
-        name: "*Milkyway / *M ",
-        value: "shows the alliance details",
-      },
-      {
-        name: "*name_of_the_clan / *two_letters ",
-        value: "shows a specific clan details ",
-      }
-    ],
-
-
-    timestamp:null ,
-    footer: {
-      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
-      text: "Bot By HBR"
-    },
-  }
-});
-
-
-
-
-    break;
 
     default:
       message.channel.sendMessage("invalid command"); 
 
   }
 });   
-
-
-
-
 
 client.login(process.env.BOT_TOKEN);
