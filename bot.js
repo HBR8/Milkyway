@@ -112,57 +112,9 @@ client.on("message", function(message){
 });
     break;
 
-    case "Lol":
-    case "l":
 
-     message.channel.send({embed: {
-    color: 0xFFD700,
-    author: {
-      name: "E A R T H (#9VQ8V8YC)",
-      icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
-      url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
-    },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
-    fields: [
-      {
-        name: "**Clan Score**",
-        value: ":trophy: 40K+",
-        inline: true
-      },
-      {
-        name: "**Required trophies**",
-        value: ":trophy: 4000",
-        inline: true
-      },
-      {
-        name: "**Donations Per Week**",
-        value: "13K+",
-        inline: true
-      },
-      {
-        name: "**Clan Wars**",
-        value: ":fire:[Active]",
-        inline: true
-      },
-      {
-        name: "**Region**",
-        value: "International",
-        inline: true
-      }
-    ],
-
-
-    timestamp:null ,
-    footer: {
-      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
-      text: "Bot By HBR"
-    },
-  }
-});
-    break;
-
-  case "NEPTUNE":
-    case "NE":
+  case "neptune":
+  case "ne":
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
@@ -209,8 +161,8 @@ client.on("message", function(message){
 });
     break;
 
-    case "SATURN":
-    case "SA":
+    case "saturn":
+    case "sa":
 
      message.channel.send({embed: {
     color: 0xFFD700,
@@ -262,8 +214,8 @@ client.on("message", function(message){
 
     break;
 
-  case "MARS":
-    case "MA":
+  case "mars":
+    case "ma":
 
      message.channel.send({embed: {
     color: 0xFFD700,
@@ -315,8 +267,8 @@ client.on("message", function(message){
 
     break;
 
-  case "PLANET-X":
-    case "PX":
+  case "planet-x":
+    case "px":
 
      message.channel.send({embed: {
     color: 0xFFD700,
@@ -368,8 +320,8 @@ client.on("message", function(message){
 
     break;
 
-  case "JUPITER":
-    case "JU":
+  case "jupiter":
+    case "ju":
 
      message.channel.send({embed: {
     color: 0xFFD700,
