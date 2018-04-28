@@ -169,7 +169,7 @@ client.on("message", function(message){
 
     break;
 
-  case "SATURN":
+    case "SATURN":
     case "SA":
 
      message.channel.send({embed: {
