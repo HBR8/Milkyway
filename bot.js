@@ -375,7 +375,36 @@ client.on("message", function(message){
 
 
     default:
-      message.channel.sendMessage("invalid command"); 
+
+    message.channel.send({embed: {
+    color: 0xFFD700,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL,
+      url: ""
+    },
+    description: "Milkyway bot DISC....",
+    fields: [
+      {
+        name: "** *Milyway/ *m **",
+        value: "shows you all the clans in our alliance.",
+      },
+      {
+        name: "** *name_of_the_clan / *shortcut(Two Letters) **",
+        value: "shows you the specific clan details",
+      }
+    ],
+
+
+    timestamp:null ,
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
+      text: "Bot By HBR"
+    },
+  }
+});
+    
+
 
   }
 });   
