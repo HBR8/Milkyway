@@ -10,7 +10,7 @@ client.on("message", function(message){
 
   switch(args[0].toLowerCase()){
     case "milkyway": 
-
+    case "m":
     message.channel.send({embed: {
     color: 0xFFD700,
     author: {
