@@ -73,7 +73,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
@@ -122,7 +122,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
@@ -171,7 +171,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
@@ -224,7 +224,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
@@ -277,7 +277,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
@@ -330,7 +330,7 @@ client.on("message", function(message){
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
     },
-    description: "welcome to Milkyway| Alliance of 6 competetive clans | Discord: milkyway.tk",
+    description: "welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
