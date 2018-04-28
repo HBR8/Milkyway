@@ -373,8 +373,10 @@ client.on("message", function(message){
 
     break;
 
+    case info: 
+    case help: 
+    case commands: 
 
-    default:
 
     message.channel.send({embed: {
     color: 0xFFD700,
@@ -396,6 +398,25 @@ client.on("message", function(message){
     ],
 
 
+    timestamp:null ,
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
+      text: "Bot By HBR"
+    },
+  }
+});
+
+    break; 
+
+    default:
+
+    message.channel.send({embed: {
+    color: 0xFFD700,
+    author: {
+      name: "invalid command => type *help ",
+      icon_url: client.user.avatarURL,
+      url: ""
+    },
     timestamp:null ,
     footer: {
       icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
