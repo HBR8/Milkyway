@@ -387,11 +387,11 @@ client.on("message", function(message){
     description: "this bot can help you to share the details of the clan. ",
     fields: [
       {
-        name: "***Milkyway / *M **",
+        name: "*Milkyway / *M ",
         value: "shows the alliance details",
       },
       {
-        name: "** *name_of_the_clan / *two_letters **",
+        name: "*name_of_the_clan / *two_letters ",
         value: "shows a specific clan details ",
       }
     ],
