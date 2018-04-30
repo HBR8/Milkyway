@@ -42,12 +42,12 @@ client.on("message", function(message){
       },
       {
         name: "----> M A R S **(#9RURCVRR)**",
-        value: ":trophy: 35K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 36K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       },
       {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: ":trophy: 32K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 31K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       }
     ],
@@ -126,7 +126,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 32K+",
+        value: ":trophy: 31K+",
         inline: true
       },
       {
@@ -228,7 +228,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 35K+",
+        value: ":trophy: 36K+",
         inline: true
       },
       {
