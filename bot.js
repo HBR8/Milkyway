@@ -52,7 +52,7 @@ client.on("message", function(message){
       },
       {
         name: "----> M E R C U R Y **(#P90VQC8R)**",
-        value: ":trophy: 1K+       :crossed_swords:Clan Wars[**Active**]            :medal:  +12Wins clan",
+        value: ":trophy: 1K+       :crossed_swords:Clan Wars[**Active**]      :medal: Required:[+12 Wins] ",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P90VQC8R"
       }
     ],
