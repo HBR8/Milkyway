@@ -51,7 +51,7 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
-        name: "----> M E R C U R Y **(#P90VQC8R)** [**+12 Wins** :dart: ]",
+        name: "----> M E R C U R Y **(#P90VQC8R)** [**+12 Wins**]",
         value: ":trophy: 1K+       :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P90VQC8R"
       }
