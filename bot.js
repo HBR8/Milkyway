@@ -18,7 +18,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "* our alliance is made up of 6 clans with nearly 300 members. ",
+    description: "* our alliance is made up of 7 clans with nearly 300 members. ",
     fields: [
       {
         name: "----> E A R T H **(#9VQ8V8YC)**",
@@ -51,8 +51,8 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
-        name: "----> M E R C U R Y **(#P90VQC8R)**",
-        value: ":trophy: 1K+       :crossed_swords:Clan Wars[**Active**]      :medal: Required:[+12 Wins] ",
+        name: "----> M E R C U R Y **(#P90VQC8R)** [**+12 Wins** :dart: ]",
+        value: ":trophy: 1K+       :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P90VQC8R"
       }
     ],
