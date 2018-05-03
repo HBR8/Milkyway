@@ -49,6 +49,11 @@ client.on("message", function(message){
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
         value: ":trophy: 31K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
+      },
+      {
+        name: "----> M E R C U R Y **(#Soon)**",
+        value: ":trophy: 0+     :crossed_swords:Clan Wars[**Active**]",
+        url: "https://royaleapi.com/clan/family/milkyway/clan/Soon"
       }
     ],
 
