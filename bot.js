@@ -384,7 +384,7 @@ client.on("message", function(message){
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: "M E R C U R Y (#P90VQC8R)",
+      name: "M E R C U R Y (#Soon)",
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
       url: "https://royaleapi.com/clan/family/milkyway/clan/P90VQC8R"
     },
@@ -392,7 +392,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 1K+",
+        value: ":trophy: ??K+",
         inline: true
       },
       {
