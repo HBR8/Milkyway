@@ -52,7 +52,7 @@ client.on("message", function(message){
       },
       {
         name: "----> M E R C U R Y **(#Soon)**",
-        value: ":trophy: 0+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 0+       :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/Soon"
       }
     ],
