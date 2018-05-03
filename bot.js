@@ -51,9 +51,9 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
-        name: "----> M E R C U R Y **(#Soon)**",
-        value: ":trophy: ??K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/Soon"
+        name: "----> M E R C U R Y **(#P9LJGJ8C)**",
+        value: ":trophy: 10K+     :crossed_swords:Clan Wars[**Active**]",
+        url: "https://royaleapi.com/clan/family/milkyway/clan/P9LJGJ8C"
       }
     ],
 
@@ -384,15 +384,15 @@ client.on("message", function(message){
      message.channel.send({embed: {
     color: 0xFFD700,
     author: {
-      name: "M E R C U R Y (#Soon)",
+      name: "M E R C U R Y (#P9LJGJ8C)",
       icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
-      url: "https://royaleapi.com/clan/family/milkyway/clan/P90VQC8R"
+      url: "https://royaleapi.com/clan/family/milkyway/clan/P9LJGJ8C"
     },
     description: "Welcome to Milkyway #  Alliance of 7 competetive clans # Discord: milkyway.tk",
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: ??K+",
+        value: ":trophy: 10K+",
         inline: true
       },
       {
