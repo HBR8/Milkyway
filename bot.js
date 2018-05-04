@@ -87,7 +87,7 @@ client.on("message", function(message){
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 4000",
+        value: ":trophy: 3800",
         inline: true
       },
       {
