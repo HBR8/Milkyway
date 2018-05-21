@@ -18,7 +18,7 @@ client.on("message", function(message){
       icon_url: client.user.avatarURL,
       url: "https://royaleapi.com/clan/family/milkyway/clans"
     },
-    description: "* our alliance is made up of 6 clans with nearly 300 members. ",
+    description: "* our alliance is made up of 5 clans with nearly 300 members. ",
     fields: [
       {
         name: "----> E A R T H **(#9VQ8V8YC)**",
