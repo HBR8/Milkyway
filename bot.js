@@ -360,8 +360,8 @@ client.on("message", function(message){
     break;
 
 
-    case "earth":
-    case "ea":
+    case "mars":
+    case "ma":
 
      message.channel.send({embed: {
     color: 0xFFD700,
