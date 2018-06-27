@@ -37,17 +37,17 @@ client.on("message", function(message){
       },
       {
         name: "----> P L A N E T - X **(#99RP2Y2V)**",
-        value: ":trophy: 37K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 38K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
       },
       {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: ":trophy: 31K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 33K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
         name: "----> M A R S **(#9RURCVRR)**",
-        value: ":trophy: 31K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 38K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       }
     ],
@@ -82,7 +82,7 @@ client.on("message", function(message){
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 4000",
+        value: ":trophy: 3600",
         inline: true
       },
       {
@@ -126,12 +126,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 31K+",
+        value: ":trophy: 33K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 2400",
+        value: ":trophy: 2200",
         inline: true
       },
       {
@@ -229,12 +229,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 37K+",
+        value: ":trophy: 38K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 3400",
+        value: ":trophy: 3000",
         inline: true
       },
       {
@@ -374,7 +374,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 31K+",
+        value: ":trophy: 38K+",
         inline: true
       },
       {
@@ -440,5 +440,3 @@ client.on("message", function(message){
 });   
 
 client.login(process.env.BOT_TOKEN);
-
-
