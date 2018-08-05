@@ -22,32 +22,32 @@ client.on("message", function(message){
     fields: [
       {
         name: "----> E A R T H **(#9VQ8V8YC)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 45K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9VQ8V8YC"
       },
       {
         name: "----> S A T U R N **(#P2P9VR02)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 43K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
       },
       {
         name: "----> J U P I T E R **(#P829Q822)**",
-        value: ":trophy: 40K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 43K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       },
       {
         name: "----> P L A N E T - X **(#99RP2Y2V)**",
-        value: ":trophy: 38K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 41K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
       },
       {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: ":trophy: 33K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 36K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
         name: "----> M A R S **(#9RURCVRR)**",
-        value: ":trophy: 38K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 39K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       }
     ],
@@ -77,12 +77,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 40K+",
+        value: ":trophy: 45K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 3600",
+        value: ":trophy: 4000",
         inline: true
       },
       {
@@ -126,12 +126,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 33K+",
+        value: ":trophy: 36K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 2200",
+        value: ":trophy: 3000",
         inline: true
       },
       {
@@ -175,7 +175,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 40K+",
+        value: ":trophy: 43K+",
         inline: true
       },
       {
@@ -229,12 +229,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 38K+",
+        value: ":trophy: 41K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 3000",
+        value: ":trophy: 3800",
         inline: true
       },
       {
@@ -282,12 +282,12 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 40K+",
+        value: ":trophy: 43K+",
         inline: true
       },
       {
         name: "**Required trophies**",
-        value: ":trophy: 3800",
+        value: ":trophy: 4000",
         inline: true
       },
       {
