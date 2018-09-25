@@ -36,11 +36,6 @@ client.on("message", function(message){
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       },
       {
-        name: "----> P L A N E T - X **(#99RP2Y2V)**",
-        value: ":trophy: 41K+     :crossed_swords:Clan Wars[**Active**]",
-        url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
-      },
-      {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
         value: ":trophy: 36K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
@@ -214,59 +209,6 @@ client.on("message", function(message){
 
     break;
 
-
-  case "planet-x":
-    case "px":
-
-     message.channel.send({embed: {
-    color: 0xFFD700,
-    author: {
-      name: "P L A N E T - X (#99RP2Y2V)",
-      icon_url: "https://royaleapi.com/static/img/badge/Twin_Peaks_02.png",
-      url: "https://royaleapi.com/clan/family/milkyway/clan/99RP2Y2V"
-    },
-    description: "Welcome to Milkyway #  Alliance of 6 competetive clans # Discord: milkyway.tk",
-    fields: [
-      {
-        name: "**Clan Score**",
-        value: ":trophy: 41K+",
-        inline: true
-      },
-      {
-        name: "**Required trophies**",
-        value: ":trophy: 3800",
-        inline: true
-      },
-      {
-        name: "**Donations Per Week**",
-        value: "18K+",
-        inline: true
-      },
-      {
-        name: "**Clan Wars**",
-        value: ":fire:[Active]",
-        inline: true
-      },
-      {
-        name: "**Region**",
-        value: "International",
-        inline: true
-      }
-    ],
-
-
-    timestamp:null ,
-    footer: {
-      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
-      text: "Bot By HBR"
-    },
-  }
-});
-
-
-
-
-    break;
 
   case "jupiter":
     case "ju":
