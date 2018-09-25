@@ -27,22 +27,22 @@ client.on("message", function(message){
       },
       {
         name: "----> S A T U R N **(#P2P9VR02)**",
-        value: ":trophy: 43K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 44K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P2P9VR02"
       },
       {
         name: "----> J U P I T E R **(#P829Q822)**",
-        value: ":trophy: 43K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 46K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P829Q822"
       },
       {
         name: "----> N E P T U N E **(#P0JJ9RVJ)**",
-        value: ":trophy: 36K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 39K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/P0JJ9RVJ"
       },
       {
         name: "----> M A R S **(#9RURCVRR)**",
-        value: ":trophy: 39K+     :crossed_swords:Clan Wars[**Active**]",
+        value: ":trophy: 34K+     :crossed_swords:Clan Wars[**Active**]",
         url: "https://royaleapi.com/clan/family/milkyway/clan/9RURCVRR"
       }
     ],
@@ -121,7 +121,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 36K+",
+        value: ":trophy: 39K+",
         inline: true
       },
       {
@@ -170,7 +170,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 43K+",
+        value: ":trophy: 44K+",
         inline: true
       },
       {
@@ -224,7 +224,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 43K+",
+        value: ":trophy: 46K+",
         inline: true
       },
       {
@@ -316,7 +316,7 @@ client.on("message", function(message){
     fields: [
       {
         name: "**Clan Score**",
-        value: ":trophy: 38K+",
+        value: ":trophy: 34K+",
         inline: true
       },
       {
