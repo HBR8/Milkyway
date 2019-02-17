@@ -1,23 +1,60 @@
-const discord = require("discord.js");
-const config = require("./config.json");
-const bot = new discord.Client({disableEveryone: true});
+onst Discord = require('discord.js');
 
-bot.on("ready", async () => {
-  console.log(`${bot.user.username} is ready for action!`);
-  bot.user.setActivity("HBR")
+const client = new Discord.Client();
+const PREFIX = "#";
+
+client.on("message", function(message){
+  if(message.author.equals(client.user)) return;
+  if(!message.content.startsWith(PREFIX)) return;
+  var args = message.content.substring(PREFIX.length).split(" ");
+
+  switch(args[0].toLowerCase()){
+    case "duel": 
+    case "d":
+    message.channel.send({embed: {
+    color: 0xFFD700,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL,
+    },
+    description: "#d @name (type) to request a battle with someone",
+  
+    timestamp:null ,
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
+      text: "Bot By HBR"
+    },
+  }
 });
+    break;
+      
+      
+    default:
+      message.channel.send({embed: {
+    color: 0xFFD700,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL,
+      url: "https://royaleapi.com/clan/family/milkyway/clans"
+    },
+    description: "invalid command!",
+    fields: [
+      {
+        name: "How to use the bot?",
+        value: "type : *help ",
+      }
+    ],
 
-bot.on("message", async message => {
-  if (message.author.bot) return;
-  if (message.channel.type === "dm") return;
 
-  let prefix = config.prefix;
-  let messageArray = message.content.split(" ");
-  let cmd = messageArray[0];
-  let args = messageArray.slice(1);
+    timestamp:null ,
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/325523620032151553/d1dbfbd129157917cb2ef2bb878376ea.png?size=128",
+      text: "Bot By HBR"
+    },
+  }
+}); 
 
-  if (cmd === `${prefix}1`) {
-      return message.channel.send("Hello World");
-});
+  }
+});   
 
-bot.login(config.token);
+client.login(process.env.BOT_TOKEN);
