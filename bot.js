@@ -1,14 +1,23 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const PREFIX = "/";
-const fs = require("fs");
+const discord = require("discord.js");
+const config = require("./config.json");
+const bot = new discord.Client({disableEveryone: true});
 
+bot.on("ready", async () => {
+  console.log(`${bot.user.username} is ready for action!`);
+  bot.user.setActivity("Minekwaft")
+});
 
-client.on("message", function(message){
-  if(message.author.equals(client.user)) return;
-  if(!message.content.startsWith(PREFIX)) return;
-  var args = message.content.substring(PREFIX.length).split(" ");
+bot.on("message", async message => {
+  if (message.author.bot) return;
+  if (message.channel.type === "dm") return;
 
-  });
+  let prefix = config.prefix;
+  let messageArray = message.content.split(" ");
+  let cmd = messageArray[0];
+  let args = messageArray.slice(1);
 
-client.login(process.env.BOT_TOKEN);
+  if (cmd === `${prefix}tutorial`) {
+      return message.channel.send("Hello World");
+});
+
+bot.login(config.token);
