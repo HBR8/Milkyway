@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "/";
+const fs = require("fs");
+// test this file
 
 client.on("message", function(message){
   if(message.author.equals(client.user)) return;
