@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-
 const client = new Discord.Client();
 const PREFIX = "/";
 
@@ -9,8 +8,9 @@ client.on("message", function(message){
   var args = message.content.substring(PREFIX.length).split(" ");
 
   switch(args[0].toLowerCase()){
-    case "milkyway": 
+    case "/": 
   
+      
     break;
 
     default:
