@@ -18,6 +18,6 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}tutorial`) {
       return message.channel.send("Hello World");
-};
+}});
 
 bot.login(config.token);
