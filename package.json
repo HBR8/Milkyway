@@ -1,10 +1,10 @@
 {
-  "name": "Milkyway",
+  "name": "Duel",
   "description": "by HBR",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
