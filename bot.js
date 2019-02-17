@@ -16,8 +16,8 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `${prefix}tutorial`) {
+  if (cmd === `${prefix}say`) {
       return message.channel.send("Hello World");
-}});
+});
 
 bot.login(config.token);
